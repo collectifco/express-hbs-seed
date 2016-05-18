@@ -1,9 +1,11 @@
 {
-  "name": "express-hbs-starter",
+  "name": "express-hbs-seed",
   "version": "1.0.0",
   "description": "A starter project for building with Express and Handlebars.",
   "main": "index.js",
   "author": "Collectif",
+  "repository": "collectifco/express-hbs-seed",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
