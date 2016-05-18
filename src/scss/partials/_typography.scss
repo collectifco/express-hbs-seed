@@ -1,0 +1,82 @@
+body {
+  font-size: $base-font-size;
+  font-family: $sans;
+  line-height: 1.45;
+  color: $body-text-color;
+  background-color: $subdued-grey;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-bottom: $line-height;
+}
+
+h1 {
+  font-size: #{1.8*$base-font-size};
+}
+
+h2 {
+  font-size: #{1.4*$base-font-size};
+  margin-top: $line-height;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+article h1 {
+  margin-bottom: $line-height;
+}
+
+ul,
+ol {
+  padding-left: 1.4rem;
+}
+
+blockquote {
+  margin-left: 1rem;
+  font-style: italic;
+  color: $grey;
+}
+
+aside {
+  color: $grey;
+}
+
+pre,
+code {
+  font-family: $monospace;
+  background: $light-grey;
+}
+
+code {
+  display: inline-block;
+}
+
+pre {
+  display: block;
+  white-space: pre-wrap; // CSS3
+  word-wrap: break-word;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+.site-name {
+  font-size: $base-font-size;
+  font-weight: bold;
+}
+
+.description {
+  color: $grey;
+  font-style: italic;
+}

@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+picture {
+  display: block; }
+
+img,
+object,
+embed {
+  max-width: 100%; }
+
+textarea {
+  resize: vertical;
+  width: 100%; }
+
+::-moz-selection {
+  background: #00cfb5;
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: #00cfb5;
+  color: #fff;
+  text-shadow: none; }
+
+input:-moz-placeholder {
+  color: #a9a9a9; }
+
+textarea:-moz-placeholder {
+  color: #a9a9a9; }
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none; }
+
+body {
+  font-size: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helmet, Freesans, sans-serif;
+  line-height: 1.45;
+  color: #222;
+  background-color: #fafafa;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
+
+p {
+  margin-bottom: 1.45rem; }
+
+h1 {
+  font-size: 1.8rem; }
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 1.45rem; }
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase; }
+
+article h1 {
+  margin-bottom: 1.45rem; }
+
+ul,
+ol {
+  padding-left: 1.4rem; }
+
+blockquote {
+  margin-left: 1rem;
+  font-style: italic;
+  color: #95a7b1; }
+
+aside {
+  color: #95a7b1; }
+
+pre,
+code {
+  font-family: Monaco, Menlo, "Ubuntu Mono", Consolas, monospace;
+  background: #cedbe2; }
+
+code {
+  display: inline-block; }
+
+pre {
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+em,
+i {
+  font-style: italic; }
+
+strong,
+b {
+  font-weight: bold; }
+
+.site-name {
+  font-size: 1rem;
+  font-weight: bold; }
+
+.description {
+  color: #95a7b1;
+  font-style: italic; }
+
+.wrapper {
+  width: 90%;
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+main {
+  margin-bottom: 2.9rem; }
+
+header {
+  border-bottom: 1px solid #cedbe2;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem; }
+
+footer {
+  margin-top: 2.9rem;
+  padding-top: 2.9rem;
+  padding-bottom: 2.9rem;
+  border-top: 1px solid #cedbe2; }
